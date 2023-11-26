@@ -16,7 +16,7 @@ function Query({ articles, page }) {
       <Navbar />
       <Header />
       {articles.length == 0 ? (
-        <h1 className="container mx-auto fw-bold">Opps were out of stories 😢</h1>
+        <h1 className="container mx-auto fw-bold">Opps were out of  stories 😢</h1>
       ) : (
         <div className="container">
           <div className="row">
